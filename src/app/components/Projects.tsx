@@ -100,67 +100,18 @@ useEffect(() => {
 
 
   const projects = [
-    {
-      title: "Fit Life – Student Fitness Application",
-      description:
-        "A cross-platform fitness application designed to increase student engagement through gamified workouts and real-time activity tracking.",
-      features: [
-        "Developed mobile application using React Native with personalized workout plans and gamified leaderboards.",
-        "Integrated Google Maps API for real-time activity tracking and route visualization.",
-        "Built an admin dashboard using Next.js and Firebase for user data management and performance monitoring.",
-        "Improved user retention by 25% and achieved 90% tracking accuracy.",
-      ],
-      technologies: [
-        "React Native",
-        "Next.js",
-        "Firebase",
-        "Google Maps API",
-        "JavaScript",
-      ],
+    { title: "Fit Life – Student Fitness Application", description: "A cross-platform fitness application designed to increase student engagement through gamified workouts and real-time activity tracking.", features: [ "Built a cross-platform mobile application using React Native with personalized workout plans and gamified leaderboards.", "Integrated Google Maps API to enable real-time activity tracking and route visualization.", "Designed and implemented an admin dashboard using Next.js and Firebase for performance monitoring and user management.", "Increased user retention by 25% and achieved 90% tracking accuracy through feature optimization.", ], technologies: [ "React Native", "Next.js", "Firebase", "Google Maps API", "JavaScript", ],
       images: ["/projects/Picture1.png", "/projects/Picture2.png", "/projects/Picture23.jpg", "/projects/Picture18.jpg", "/projects/Picture22.jpg", "/projects/Picture11.png", "/projects/Picture3.png", "/projects/Picture5.png", "/projects/Picture19.jpg", "/projects/Picture8.png", "/projects/Picture9.png", "/projects/Picture13.png", "/projects/Picture14.png", "/projects/Picture15.png", "/projects/Picture16.png", "/projects/Picture17.png"],
       githubUrl: "https://github.com/chalita2003",
       liveUrl: null,
     },
     {
-      title: "MovieShake – Movie Recommendation Platform",
-      description:
-        "A personalized movie recommendation application delivering tailored content through optimized backend performance and interactive user experience.",
-      features: [
-        "Developed cross-platform app using React Native and Appwrite backend services.",
-        "Implemented interactive 'Shake' feature for random movie suggestions to enhance engagement.",
-        "Optimized API performance and caching strategies, improving system speed by 30%.",
-        "Collaborated within a 4-member Agile team using GitHub workflow and sprint planning.",
-      ],
-      technologies: [
-        "React Native",
-        "JavaScript",
-        "Appwrite",
-        "GitHub",
-      ],
+     title: "MovieShake – Movie Recommendation Platform", description: "A personalized movie recommendation platform delivering tailored suggestions through optimized backend performance and interactive features.", features: [ "Developed a cross-platform application using React Native and Appwrite backend services.", "Implemented an interactive 'Shake' feature to generate random movie suggestions and enhance engagement.", "Optimized API performance and caching strategies, improving system response speed by 30%.", "Collaborated within a 4-member Agile team using GitHub workflows and sprint planning.", ], technologies: ["React Native", "JavaScript", "Appwrite", "GitHub"],
       images: ["/projects/movie1.png", "/projects/movie2.png", "/projects/movie3.png", "/projects/movie4.png", "/projects/movie5.png", "/projects/movie6.png", "/projects/movie7.png", "/projects/movie8.png", "/projects/movie9.png"],
       githubUrl: "https://github.com/chalita2003",
       liveUrl: null,
     },
-{
-  title: "PetShop – Online Pet Food Management System",
-  description:
-    "A full-stack web application designed to digitize inventory and sales management for pet shop businesses. The system supports both customer purchasing workflows and admin management with real-time stock tracking.",
-  features: [
-    "Developed a role-based system supporting Admin and Customer users.",
-    "Implemented inventory management with real-time stock tracking and product categorization.",
-    "Built full e-commerce workflow including cart, checkout, and order tracking.",
-    "Designed product filtering by pet type, brand, promotion, and new arrivals.",
-    "Integrated secure admin authentication and order management dashboard.",
-    "Containerized application using Docker with MariaDB database integration.",
-  ],
-  technologies: [
-    "Java",
-    "Spring Boot",
-    "MariaDB",
-    "Docker",
-    "DBeaver",
-    "Git",
-  ],
+{ title: "PetShop – Online Pet Food Management System", description: "A full-stack web application designed to digitize inventory and sales management for pet shop businesses, supporting customer purchasing workflows and admin management.", features: [ "Engineered a role-based system supporting Admin and Customer access control.", "Implemented real-time inventory tracking and structured product categorization.", "Built a complete e-commerce workflow including cart, checkout, and order tracking.", "Designed advanced product filtering by pet type, brand, promotion, and new arrivals.", "Integrated secure authentication and an administrative dashboard for order management.", "Containerized the application using Docker with MariaDB integration.", ], technologies: [ "Java", "Spring Boot", "MariaDB", "Docker", "Git", ],
   images: [ "/projects/pet7.png","/projects/pet8.png","/projects/pet9.png","/projects/pet10.png","/projects/pet11.png","/projects/pet12.png","/projects/pet13.png","/projects/pet14.png","/projects/pet15.png","/projects/pet1.png","/projects/pet2.png","/projects/pet3.png","/projects/pet4.png","/projects/pet5.png","/projects/pet6.png",],
   githubUrl: "https://github.com/chalita2003",
   liveUrl: null,

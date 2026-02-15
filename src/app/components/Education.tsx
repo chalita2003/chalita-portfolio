@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "motion/react";
 import { useRef } from "react";
-import { GraduationCap, BookOpen, Award } from "lucide-react";
+import { GraduationCap, BookOpen } from "lucide-react";
 
 export function Education() {
   const ref = useRef(null);
@@ -57,40 +57,51 @@ export function Education() {
                 </div>
               </div>
 
-              {/* Focus & Foundation */}
+              {/* Academic Summary */}
               <div className="mb-6 text-gray-300 leading-relaxed">
                 <p className="mb-3">
-                  Focused on full-stack web development, mobile application architecture,
-                  and scalable system design.
+                  Concentrated on full-stack web development, software engineering,
+                  and scalable system architecture.
                 </p>
                 <p>
-                  Built strong foundations in database systems, API development,
-                  and software engineering principles.
+                  Developed strong foundations in database design, programming principles,
+                  system analysis, and collaborative software development practices.
                 </p>
               </div>
 
-              {/* Academic Projects */}
+              {/* Relevant Coursework */}
               <div>
                 <div className="flex items-center gap-2 mb-3">
-                  <Award size={20} className="text-blue-400" />
+                  <BookOpen size={20} className="text-blue-400" />
                   <h4 className="text-lg font-semibold text-white">
-                    Selected Academic Projects
+                    Relevant Coursework
                   </h4>
                 </div>
-                <ul className="space-y-2 text-gray-300">
+
+                <ul className="grid md:grid-cols-2 gap-y-2 text-gray-300">
                   <li className="flex items-start gap-3">
                     <span className="text-blue-400 mt-1">•</span>
-                    <span>
-                      <span className="text-white font-medium">Fit Life</span> – 
-                      Mobile fitness application improving retention by 25%
-                    </span>
+                    <span>Software Engineering</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-blue-400 mt-1">•</span>
-                    <span>
-                      <span className="text-white font-medium">MovieShake</span> – 
-                      Recommendation platform with 30% performance optimization
-                    </span>
+                    <span>Software Testing</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>Structured Programming and Data Structures</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>Object-Oriented Programming</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>Database Design and Development</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>Information System Analysis and Design</span>
                   </li>
                 </ul>
               </div>

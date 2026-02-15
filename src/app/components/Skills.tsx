@@ -7,7 +7,7 @@ import {
   Database,
   Container,
   Wrench,
-  Users,
+  PenTool,
 } from "lucide-react";
 
 export function Skills() {
@@ -16,34 +16,62 @@ export function Skills() {
 
   const skillCategories = [
     {
-      title: "Frontend",
+      title: "Primary Stack",
+      subtitle: "Ready to contribute in production",
       icon: Code2,
-      skills: ["React", "Next.js", "React Native", "Tailwind CSS"],
+      skills: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+      ],
       color: "blue",
     },
     {
-      title: "Backend",
+      title: "Comfortable With",
+      subtitle: "Applied in projects and integrations",
       icon: Database,
-      skills: ["Node.js", "REST API", "Firebase", "Appwrite", "PostgreSQL"],
+      skills: [
+        "Node.js",
+        "REST API Integration",
+        "Firebase",
+        "Appwrite",
+        "React Native",
+      ],
       color: "purple",
     },
     {
-      title: "DevOps",
+      title: "Familiar With",
+      subtitle: "Basic deployment & infrastructure exposure",
       icon: Container,
-      skills: ["Docker", "Kubernetes", "CI/CD"],
+      skills: [
+        "Docker",
+        "Kubernetes",
+        "Helm",
+      ],
       color: "cyan",
     },
     {
-      title: "Tools",
-      icon: Wrench,
-      skills: ["Git", "Figma", "Postman", "VS Code"],
-      color: "green",
+      title: "UI & Design",
+      subtitle: "Design-to-code workflow",
+      icon: PenTool,
+      skills: [
+        "Figma (UI Design & Prototyping)",
+        "Responsive Design",
+      ],
+      color: "pink",
     },
     {
-      title: "Soft Skills",
-      icon: Users,
-      skills: ["Problem-solving", "Team collaboration", "Time management", "Communication"],
-      color: "orange",
+      title: "Workflow & Collaboration",
+      subtitle: "Team-based development process",
+      icon: Wrench,
+      skills: [
+        "Git",
+        "GitHub",
+        "Postman",
+        "Agile / Scrum",
+      ],
+      color: "green",
     },
   ];
 
@@ -72,11 +100,11 @@ export function Skills() {
       border: "border-green-500/20",
       shadow: "hover:shadow-green-500/20",
     },
-    orange: {
-      bg: "bg-orange-500/10",
-      text: "text-orange-400",
-      border: "border-orange-500/20",
-      shadow: "hover:shadow-orange-500/20",
+    pink: {
+      bg: "bg-pink-500/10",
+      text: "text-pink-400",
+      border: "border-pink-500/20",
+      shadow: "hover:shadow-pink-500/20",
     },
   };
 
@@ -92,13 +120,17 @@ export function Skills() {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Skills
           </h2>
-          <div className="w-20 h-1 bg-blue-500 mx-auto rounded-full" />
+          <p className="text-gray-400 max-w-2xl mx-auto text-sm">
+            Clear positioning of tools and technologies I actively use and continue to develop.
+          </p>
+          <div className="w-20 h-1 bg-blue-500 mx-auto rounded-full mt-4" />
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillCategories.map((category, index) => {
             const Icon = category.icon;
-            const colors = colorClasses[category.color as keyof typeof colorClasses];
+            const colors =
+              colorClasses[category.color as keyof typeof colorClasses];
 
             return (
               <motion.div
@@ -114,9 +146,13 @@ export function Skills() {
                   <Icon className={colors.text} size={28} />
                 </div>
 
-                <h3 className="text-xl font-semibold text-white mb-4">
+                <h3 className="text-xl font-semibold text-white">
                   {category.title}
                 </h3>
+
+                <p className="text-xs text-gray-400 mb-4 mt-1">
+                  {category.subtitle}
+                </p>
 
                 <div className="space-y-2">
                   {category.skills.map((skill) => (

@@ -9,11 +9,11 @@ export function Mindset() {
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
   const mindsetItems = [
-    "Designing scalable and maintainable systems",
-    "Writing clean, reusable component architecture",
-    "Applying RESTful API best practices",
-    "Performance optimization and caching",
-    "Continuous learning in DevOps and Cloud infrastructure",
+    "I focus on building user interfaces that are intuitive, responsive, and practical for real-world usage.",
+    "I value clear structure — from component design to API integration — so that systems remain maintainable as they grow.",
+    "When facing unfamiliar problems, I break them down logically and research until I understand the root cause.",
+    "I actively seek feedback and iterate quickly to improve both my code and collaboration skills.",
+    "As a recent graduate, I prioritize learning fast, adapting quickly, and contributing meaningfully to the team."
   ];
 
   return (
@@ -26,9 +26,12 @@ export function Mindset() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Engineering Philosophy
+            How I Approach Development
           </h2>
-          <div className="w-20 h-1 bg-blue-500 mx-auto rounded-full" />
+          <p className="text-gray-400 text-sm max-w-2xl mx-auto">
+            My mindset as a frontend-focused developer starting my professional journey.
+          </p>
+          <div className="w-20 h-1 bg-blue-500 mx-auto rounded-full mt-4" />
         </motion.div>
 
         <motion.div
@@ -43,7 +46,7 @@ export function Mindset() {
             </div>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-6 max-w-2xl mx-auto">
             {mindsetItems.map((item, index) => (
               <motion.div
                 key={item}

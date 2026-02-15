@@ -37,7 +37,7 @@ export function Hero() {
           transition={{ duration: 0.8 }}
           className="text-xs md:text-sm tracking-[0.4em] uppercase text-white/50"
         >
-          Fullstack Developer
+          Full Stack Developer
         </motion.p>
 
         {/* Big Title */}

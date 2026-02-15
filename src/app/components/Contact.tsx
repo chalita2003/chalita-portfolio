@@ -49,11 +49,11 @@ export function Contact() {
           </h2>
           <div className="w-20 h-1 bg-blue-500 mx-auto rounded-full" />
           <p className="text-gray-400 mt-6 text-lg">
-            Feel free to reach out for collaborations or just a friendly hello
+            Feel free to reach out for collaboration opportunities or just a friendly hello.
           </p>
           <div className="mt-4 inline-block px-6 py-3 bg-blue-500/10 border border-blue-500/20 rounded-2xl">
             <p className="text-blue-400 font-semibold">
-              Open to Fullstack and DevOps Opportunities
+              Actively Seeking Full-Stack Developer Roles
             </p>
           </div>
         </motion.div>

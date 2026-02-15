@@ -10,40 +10,40 @@ export function Activities() {
 
   const activities = [
     {
-      icon: Briefcase,
-      title: "Full Stack Developer Internship",
-      organization: "GoSoft (Thailand) Co., Ltd.",
-      period: "June – August 2025",
-      description:
-        "Enterprise chatbot development, promotion system, Docker deployment",
-      color: "blue",
-    },
-    {
       icon: Code,
-      title: "University Tech Projects",
-      organization: "Computer Science Department",
-      period: "2022 – Present",
+      title: "AWS Summit Bangkok 2025 – Participant",
+      organization: "Amazon Web Services (AWS)",
+      period: "2025",
       description:
-        "Developed multiple fullstack applications including fitness tracker and movie recommendation platform",
-      color: "purple",
-    },
-    {
-      icon: Users,
-      title: "Tech Workshop Participation",
-      organization: "Various Tech Communities",
-      period: "2023 – 2025",
-      description:
-        "Attended workshops on Docker, Kubernetes, and modern web development practices",
+        "Attended industry sessions focused on cloud architecture, DevOps practices, and modern infrastructure solutions.",
       color: "cyan",
     },
     {
       icon: Sparkles,
-      title: "Team Leadership & Collaboration",
-      organization: "Academic Projects",
-      period: "2023 – 2025",
+      title: "PTG Academy – Travel Solution Platform",
+      organization: "PTG Energy Public Company Limited",
+      period: "2024",
       description:
-        "Led development teams using Agile methodology and Git collaboration",
-      color: "green",
+        "Collaborated in a team to develop a Travel Solution Platform concept. Designed the user interface in Figma and contributed to presentation preparation and solution planning.",
+      color: "purple",
+    },
+    // {
+    //   icon: Users,
+    //   title: "Academic Project Team Lead",
+    //   organization: "Computer Science Department",
+    //   period: "2023 – 2025",
+    //   description:
+    //     "Coordinated project timelines, managed version control, consolidated team deliverables, and frequently represented the team during project presentations.",
+    //   color: "green",
+    // },
+    {
+      icon: Briefcase,
+      title: "Student Dormitory Committee Member",
+      organization: "University Dormitory",
+      period: "2023 – 2024",
+      description:
+        "Served as a committee member responsible for coordination between residents and administration, supporting event organization and community activities.",
+      color: "blue",
     },
   ];
 
@@ -92,7 +92,8 @@ export function Activities() {
         <div className="grid md:grid-cols-2 gap-6">
           {activities.map((activity, index) => {
             const Icon = activity.icon;
-            const colors = colorClasses[activity.color as keyof typeof colorClasses];
+            const colors =
+              colorClasses[activity.color as keyof typeof colorClasses];
 
             return (
               <motion.div

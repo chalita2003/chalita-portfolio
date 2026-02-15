@@ -9,30 +9,31 @@ export function Experience() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
-  const experience = {
-    role: "Full Stack Developer Intern",
-    company: "GoSoft (Thailand) Co., Ltd.",
-    companyUrl: "https://www.gosoft.co.th/",
-    logo: "/images/gosoft.png", // ใส่ไฟล์ไว้ที่ public/logos/gosoft.png
-    period: "Feb – Jun 2025",
-    description:
-      "Contributed to enterprise-scale digital solutions, enhancing internal operational workflows and promotional analytics systems.",
-    bullets: [
-      "Architected and developed an enterprise chatbot platform and promotional analytics web application using Next.js, TypeScript, and Tailwind CSS.",
-      "Built interactive dashboards featuring advanced filtering, sorting, search, and CSV export capabilities.",
-      "Led UX/UI validation through real user scenario testing, improving usability and workflow efficiency.",
-      "Implemented containerized deployment strategies using Docker, Kubernetes, and Helm to support scalable infrastructure.",
-    ],
-    tech: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Docker",
-      "Kubernetes",
-      "Helm",
-      "Figma",
-    ],
-  };
+const experience = {
+  role: "Full Stack Developer Intern",
+  company: "GoSoft (Thailand) Co., Ltd.",
+  companyUrl: "https://www.gosoft.co.th/",
+  logo: "/images/gosoft.png",
+  period: "Feb – Jun 2025",
+  description:
+    "Contributed to the design and frontend development of an enterprise chatbot and promotion comparison system, focusing on user experience and scalable implementation.",
+  bullets: [
+    "Designed UX/UI for an enterprise chatbot system using Figma, including a dashboard, database management, chat testing, and user role management screens.",
+    "Developed the frontend of a promotion comparison system using Next.js, TypeScript, and Tailwind CSS.",
+    "Implemented interactive DataTable features with search, filtering, sorting, and CSV export functionality.",
+    "Conducted usability testing through real-world scenario simulations and improved UI workflows based on feedback.",
+    "Applied containerization practices using Docker and supported deployment workflows with Kubernetes and Helm."
+  ],
+  tech: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Docker",
+    "Kubernetes",
+    "Helm",
+    "Figma",
+  ],
+};
 
   return (
     <section id="experience" className="py-24 px-6 relative z-10">
