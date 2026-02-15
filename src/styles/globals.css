@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.bg-ultra-gradient {
+  background: linear-gradient(
+    120deg,
+    #0f172a,
+    #1e293b,
+    #0f172a
+  );
+  background-size: 200% 200%;
+  animation: gradientMove 35s ease infinite;
+}
