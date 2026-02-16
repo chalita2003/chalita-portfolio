@@ -101,7 +101,7 @@ useEffect(() => {
 
   const projects = [
     { title: "Fit Life – Student Fitness Application", description: "A cross-platform fitness application designed to increase student engagement through gamified workouts and real-time activity tracking.", features: [ "Built a cross-platform mobile application using React Native with personalized workout plans and gamified leaderboards.", "Integrated Google Maps API to enable real-time activity tracking and route visualization.", "Designed and implemented an admin dashboard using Next.js and Firebase for performance monitoring and user management.", "Increased user retention by 25% and achieved 90% tracking accuracy through feature optimization.", ], technologies: [ "React Native", "Next.js", "Firebase", "Google Maps API", "JavaScript", ],
-      images: ["/projects/Picture1.png", "/projects/Picture2.png", "/projects/Picture23.jpg", "/projects/Picture18.jpg", "/projects/Picture22.jpg", "/projects/Picture11.png", "/projects/Picture3.png", "/projects/Picture5.png", "/projects/Picture19.jpg", "/projects/Picture8.png", "/projects/Picture9.png", "/projects/Picture13.png", "/projects/Picture14.png", "/projects/Picture15.png", "/projects/Picture16.png", "/projects/Picture17.png"],
+      images: ["/projects/Picture1.png", "/projects/Picture2.png", "/projects/Picture21.jpg", "/projects/Picture18.jpg", "/projects/Picture22.jpg", "/projects/Picture11.png", "/projects/Picture3.png", "/projects/Picture5.png", "/projects/Picture19.jpg", "/projects/Picture8.png", "/projects/Picture9.png", "/projects/Picture13.png", "/projects/Picture14.png", "/projects/Picture15.png", "/projects/Picture16.png", "/projects/Picture17.png"],
       githubUrl: "https://github.com/chalita2003",
       liveUrl: null,
     },
