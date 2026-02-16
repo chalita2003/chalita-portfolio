@@ -112,7 +112,7 @@ useEffect(() => {
       liveUrl: null,
     },
 { title: "PetShop – Online Pet Food Management System", description: "A full-stack web application designed to digitize inventory and sales management for pet shop businesses, supporting customer purchasing workflows and admin management.", features: [ "Engineered a role-based system supporting Admin and Customer access control.", "Implemented real-time inventory tracking and structured product categorization.", "Built a complete e-commerce workflow including cart, checkout, and order tracking.", "Designed advanced product filtering by pet type, brand, promotion, and new arrivals.", "Integrated secure authentication and an administrative dashboard for order management.", "Containerized the application using Docker with MariaDB integration.", ], technologies: [ "Java", "Spring Boot", "MariaDB", "Docker", "Git", ],
-  images: [ "/projects/pet1.png","/projects/pet2.png","/projects/pet3.png","/projects/pet4.png","/projects/pet5.png","/projects/pet6.png","/projects/pet7.png","/projects/pet8.png","/projects/pet9.png","/projects/pet10.png","/projects/pet11.png","/projects/pet12.png","/projects/pet13.png","/projects/pet14.png",],
+  images: [ "/projects/pet1.png","/projects/pet2.png","/projects/pet3.png","/projects/pet4.png","/projects/pet5.png","/projects/pet6.png","/projects/pet7.png","/projects/pet8.png","/projects/pet9.png","/projects/pet10.png","/projects/pet11.png","/projects/pet12.png","/projects/pet13.png","/projects/pet14.png","/projects/pet15.png",],
   githubUrl: "https://github.com/chalita2003",
   liveUrl: null,
 },
